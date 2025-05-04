@@ -3,8 +3,7 @@
 module github.com/git-ecosystem/sample-trace2-otel-collector
 
 go 1.22.0
-
-toolchain go1.23.1
+toolchain go1.24.1
 
 require (
 	github.com/git-ecosystem/trace2receiver v0.5.6
@@ -20,7 +19,7 @@ require (
 	go.opentelemetry.io/collector/processor v0.111.0
 	go.opentelemetry.io/collector/processor/batchprocessor v0.111.0
 	go.opentelemetry.io/collector/receiver v0.111.0
-	golang.org/x/sys v0.29.0
+	golang.org/x/sys v0.31.0
 )
 
 require (
@@ -127,8 +126,8 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/exp v0.0.0-20241004190924-225e2abe05e6 // indirect
-	golang.org/x/net v0.34.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	gonum.org/v1/gonum v0.15.1 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20241007155032-5fefd90f89a9 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241007155032-5fefd90f89a9 // indirect
